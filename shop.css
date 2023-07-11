@@ -1,0 +1,101 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    /* flex-shrink: 0; */
+    background: rgba(229, 84, 115, 0.10);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    background-size: auto, 80px;
+    display: flex;
+    justify-content: space-between;
+    
+   
+
+}
+.profile-pic{
+    width: 535px;
+height: 600px;
+flex-shrink: 0;
+padding:50px 120px;
+
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+background: #E55473;
+color: #FFFFFF;
+border-radius: 5px;
+border-color:transparent ;
+}
+.banner{
+    align-items: center;
+    max-width: 520px;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;   
+}
+.section-title {
+    color: var #757575;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+      color: #757575;
+    text-align: center;
+    font-size: 18px;
+    width: 500px;
+    height: 60px;
+    margin: 0px 420px;  
+}
+.skills-container{
+    display:flex;
+    gap: 15px;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.skill1{
+    width: 400px;
+height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.skill2{
+    width: 400px;
+    height: 500px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+
+
+}
+.skill3{
+width: 400px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+
+
+}
+.icon{
+    border: 50px 20px;
+    
+    display: flex;
+    gap:50px;
+    text-align: center;
+    justify-content: space-between;
+
+
+    
+}
+
+
