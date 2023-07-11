@@ -189,14 +189,25 @@ flex-direction: column;
 
 .primary {
     color: #FFFFFF;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
 }
 
 .back {
     background-color: black;
-    width: 1600px;
+    width: 1900px; 
     height: 300px;
-    text-align: center;
-    
+    display:flex; 
+
+align-items: center;
+margin-left: 0px;
+margin-right: 0px;
+background-position: center;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+
     
 }
 
@@ -204,6 +215,9 @@ flex-direction: column;
     color: rgba(255, 255, 255, 0.90);
     font-size: small;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 
 }
 .subscribe input {
