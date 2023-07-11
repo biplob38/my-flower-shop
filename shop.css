@@ -1,7 +1,8 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.header{
+
+.header {
     /* flex-shrink: 0; */
     background: rgba(229, 84, 115, 0.10);
     background-repeat: no-repeat;
@@ -9,35 +10,39 @@ body{
     background-size: auto, 80px;
     display: flex;
     justify-content: space-between;
-    
-   
+
+
 
 }
-.profile-pic{
+
+.profile-pic {
     width: 535px;
-height: 600px;
-flex-shrink: 0;
-padding:50px 120px;
+    height: 600px;
+    flex-shrink: 0;
+    padding: 50px 120px;
 
 }
-.btn-primary{
+
+.btn-primary {
     display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
-background: #E55473;
-color: #FFFFFF;
-border-radius: 5px;
-border-color:transparent ;
+    background: #E55473;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-color: transparent;
 }
-.banner{
+
+.banner {
     align-items: center;
     max-width: 520px;
     flex-direction: column;
     width: 50%;
-    margin: auto;   
+    margin: auto;
 }
+
 .section-title {
     color: var #757575;
     text-align: center;
@@ -46,100 +51,180 @@ border-color:transparent ;
 }
 
 .section-description {
-      color: #757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
-    width: 500px;
-    height: 60px;
-    margin: 0px 420px;  
+    margin-left: 300px ;
+    margin-right: 300px;
+   
+   
 }
-.skills-container{
-    display:flex;
+
+.skills-container {
+    display: flex;
     gap: 15px;
-    text-decoration: underline;
-    align-items: center;
     justify-content: space-between;
-    
-}
-.skill1{
-    width: 400px;
-height: 500px;
-    flex-shrink: 0;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-}
-.skill2{
-    width: 400px;
-    height: 500px;
-flex-shrink: 0;
-border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 100px;
 
 
 }
-.skill3{
-width: 400px;
-height: 500px;
-flex-shrink: 0;
-border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
+
+
+
+.skill1 h1 {
+    height: 330px;
+    width: 280px;
+    background-color: rgba(167, 33, 98, 0.15);
+    background-image: url("./Flower Asset/pngwing 5.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border-radius: 50% 50% 0px 0px;
+    background-size: 80%;
 }
-.iconed, .name{
+.skill2 h1 {
+    height: 330px;
+    width: 280px;
+    background-color: #0597A026;
+    background-image: url("./Flower Asset/pngwing 6.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border-radius: 50% 50% 0px 0px;
+    background-size: 80%;
+}
+.skill3 h1 {
+    height: 330px;
+    width: 280px;
+    background-color: #477D1126;
+    background-image: url("./Flower Asset/pngwing 7.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border-radius: 50% 50% 0px 0px;
+    background-size: 80%;
+}
+
+
+.iconed,
+.name {
     display: flex;
     gap: 120px;
-     justify-content: center;
+    justify-content: center;
 }
-.icon{
+
+.icon {
     padding: 130;
     border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
+    background: rgba(39, 39, 39, 0.05);
     margin: 100px 250px 100px 250px;
 }
-.offer{
+
+.offer {
     background: rgba(229, 84, 115, 0.10);
     background-repeat: no-repeat;
     background-position: bottom right, top left;
     background-size: 1200px, 620px;
     display: flex;
     margin-bottom: 100px;
-   
+
 }
-.profile-pic2{
+
+.profile-pic2 {
     size: 318px 420px;
     width: 318px;
-height: 420px;
+    height: 420px;
 
 
 }
+
 .text-primary {
     color: #E55473;
 }
-.offerad{
+
+.offerad {
     text-align: center;
     size: 200px 800px 80px 300px;
     padding: 200px 100px;
-   text-decoration: double;
+    text-decoration: double;
 }
-.insta{
+
+.insta {
     justify-content: center;
     text-align: center;
     margin-bottom: 50px;
 
 }
-.image{
+
+.image {
     margin-bottom: 120px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 300px;
+    gap: 15px;
+
 }
-.deal{
-    background-image: url(Flower\ Asset/);
+.image img{
+    height: 300px;
+    width: 250px;
 }
-.primary{
+
+.deal {
+height: 500px;
+
+background-image: url("Flower Asset/Rectangle 9.png");
+background-repeat: no-repeat;
+background-size: 90%;
+display:flex;
+justify-content: center;
+align-items: center;
+margin-left: 100px;
+margin-right: 100px;
+background-position: center;
+flex-direction: column;
+
+
+}
+
+.primary {
     color: #FFFFFF;
 }
 
+.back {
+    background-color: black;
+    width: 1600px;
+    height: 300px;
+    text-align: center;
+    
+    
+}
 
+.font {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: small;
+    align-items: center;
 
-
-
-
-
-
+}
+.subscribe input {
+    width: 500px;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #000;
+    border: #000 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .subscribe button {
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+  }
