@@ -83,19 +83,63 @@ height: 500px;
 flex-shrink: 0;
 border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
-
-
+}
+.iconed, .name{
+    display: flex;
+    gap: 120px;
+     justify-content: center;
 }
 .icon{
-    border: 50px 20px;
-    
-    display: flex;
-    gap:50px;
-    text-align: center;
-    justify-content: space-between;
-
-
-    
+    padding: 130;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+    margin: 100px 250px 100px 250px;
 }
+.offer{
+    background: rgba(229, 84, 115, 0.10);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    background-size: 1200px, 620px;
+    display: flex;
+    margin-bottom: 100px;
+   
+}
+.profile-pic2{
+    size: 318px 420px;
+    width: 318px;
+height: 420px;
+
+
+}
+.text-primary {
+    color: #E55473;
+}
+.offerad{
+    text-align: center;
+    size: 200px 800px 80px 300px;
+    padding: 200px 100px;
+   text-decoration: double;
+}
+.insta{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.image{
+    margin-bottom: 120px;
+}
+.deal{
+    background-image: url(Flower\ Asset/);
+}
+.primary{
+    color: #FFFFFF;
+}
+
+
+
+
+
+
 
 
